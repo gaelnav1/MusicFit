@@ -1,0 +1,23 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+.venv/
+venv/
+env/
+
+# Local media inputs
+videos/*
+!videos/.pon_aqui_tus_videos
+canciones/*
+!canciones/.pon_aqui_tus_canciones
+
+# Generated outputs
+resultados/
+*.zip
+
+# OS / editors
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
